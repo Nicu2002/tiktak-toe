@@ -1,0 +1,64 @@
+
+#login-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+#login-modal>div>input {
+    padding-left: 1em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    width: 100%;
+    height: 2em;
+}
+
+#start-btn{
+    width: 5em;
+    height: 2em;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-modal>div {
+    position: relative;
+    width: 60vmin;
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restriction-modal {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    bottom: 0;
+}

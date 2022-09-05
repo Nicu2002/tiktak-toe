@@ -1,0 +1,7 @@
+#modal-status {
+    width: 20vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    height: 10vh;
+}

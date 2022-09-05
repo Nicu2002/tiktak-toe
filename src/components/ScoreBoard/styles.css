@@ -1,0 +1,28 @@
+#score-board {
+    width: 25vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    right: 10vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+#score-board-buttons {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#score-board-buttons>button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
